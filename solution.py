@@ -1,12 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 import pandas as pd
 import numpy as np
 from scipy.stats import norm
+
+chat_id = 361109448
 
 def solution(x_success: int, x_cnt: int, y_success: int, y_cnt: int) -> bool:
     # Пропорции успехов в контрольной и тестовой группах
